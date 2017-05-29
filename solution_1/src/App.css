@@ -1,0 +1,222 @@
+.App {
+  display: block;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Header {
+  max-width: 1350px;
+  margin: auto;
+}
+
+.Header-top {
+  background-color: white;
+  height: 130px;
+  color: white;
+  box-shadow: 0 0 10px lightgray;
+}
+
+.Header-title {
+  left: 0px;
+  color: #444444;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+.Header-bottom {
+  left: 0;
+  margin-top: 20px;
+  font-size: 25px;
+  color: #444444;
+}
+
+.Header-title .Header-left {
+  text-align: left;
+  display: inline-block;
+}
+
+.Header-title .Header-right,
+.Header-title .Header-right a {
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+  color:#00AC68;
+  font-size: 20px;
+}
+
+.Header-title .Header-right:hover {
+  text-decoration: underline;
+}
+
+.Post {
+  height: auto;
+  max-width: 860px;
+  background-color: white;
+  /*margin-left: 30px;*/
+  box-shadow: 0 0 10px lightgray;
+  display: block;
+  position: relative;
+  /*text-align: center;*/
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-right: 50px;*/
+}
+
+.Post .Post-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Post-info {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.Post-text {
+  vertical-align: middle;
+  padding-top: 7px;
+  margin-left: 20px;
+}
+
+.Post-text-preview {
+  font-size: 30px;
+  margin-right: 50px;
+  margin-left: 30px;
+  text-align: left;
+  padding-bottom: 20px;
+  color: #727272;
+}
+
+.Post-resp {
+  margin-right: 15px;
+}
+
+.Post-left {
+  text-align: left;
+  display: inline-block;
+}
+
+.Post-right {
+  float: right;
+  font-size: 30px;
+  color: #727272;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.Post-bottom {
+  clear: both;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.Post-img,
+.Post-text {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.Post-img {
+  vertical-align: top;
+}
+
+.Post .Post-author, 
+.Post .Post-date {
+  font-size: 120%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.Post .Post-author-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #00AC68;
+}
+
+.Post .Post-author {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Post .Post-author a {
+  color: #00AC68;
+}
+
+.Post .Post-author:hover {
+  text-decoration: none;
+}
+
+.Sidebar {
+  width: 460px;
+  /*display: inline-block;*/
+  position: absolute;
+  /*margin-top: 350px;*/
+  top: 150px;
+  bottom: 0;
+  right: 150px;
+}
+
+.Sidebar p {
+  font-size: 20px;
+  color: gray;
+}
+
+.Sidebar-fixed {
+  top: 50px;
+  position: fixed;
+  width: inherit;
+  /*bottom: 0;*/
+}
+
+.Sidebar-tag {
+  box-shadow: 0 0 10px lightgray;
+  display: inline-block;
+  text-decoration: none;
+  margin: 15px 0px 0px 20px;
+  color: #727272;
+  font-size: 25px;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.Sidebar-tag:hover {
+  color: black;
+}
+
+.Sidebar-tag li {
+  list-style-type: none;
+}
+.Sidebar ul,
+.post-tags ul {
+  -webkit-padding-start: 0px;
+  list-style-type: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
